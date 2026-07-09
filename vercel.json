@@ -1,0 +1,15 @@
+{
+  "functions": {
+    "api/*.py": {
+      "runtime": "python3.12",
+      "memory": 512,
+      "maxDuration": 60
+    }
+  },
+  "crons": [
+    {
+      "path": "/health",
+      "schedule": "*/5 * * * *"
+    }
+  ]
+}

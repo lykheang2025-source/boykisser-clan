@@ -1,0 +1,6 @@
+bot_output.log
+*.pyc
+__pycache__/
+.env
+venv/
+.vscode/
